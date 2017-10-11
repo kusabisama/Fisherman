@@ -1,9 +1,9 @@
-﻿Log file open, 10/11/17 14:14:25
+﻿Log file open, 10/11/17 17:49:36
 LogInit:Display: Running engine for game: UE_fisherman
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-501912567) SRandInit(-501912566).
+LogInit:Display: RandInit(-1845735694) SRandInit(-1845735693).
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.114193
+LogStats: Stats thread started at 0.121223
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -45,246 +45,354 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.11-17.14.26:071][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.11-17.14.26:071][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.11-17.14.26:084][  0]LogInit: Computer: SEBANUEVA-PC
-[2017.10.11-17.14.26:084][  0]LogInit: User: sebastian
-[2017.10.11-17.14.26:084][  0]LogInit: CPU Page size=4096, Cores=6
-[2017.10.11-17.14.26:084][  0]LogInit: High frequency timer resolution =3.222655 MHz
-[2017.10.11-17.14.26:084][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.10.11-17.14.26:084][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.11-17.14.26:084][  0]LogMemory: Process Physical Memory: 273.04 MB used, 273.04 MB peak
-[2017.10.11-17.14.26:084][  0]LogMemory: Process Virtual Memory: 266.94 MB used, 266.94 MB peak
-[2017.10.11-17.14.26:084][  0]LogMemory: Physical Memory: 6327.21 MB used,  9952.22 MB free, 16279.43 MB total
-[2017.10.11-17.14.26:084][  0]LogMemory: Virtual Memory: 627.46 MB used,  9952.22 MB free, 134217728.00 MB total
-[2017.10.11-17.14.26:149][  0]LogInit: Overriding language with editor culture configuration option (en).
-[2017.10.11-17.14.26:149][  0]LogInit: Overriding locale with editor culture configuration option (en).
-[2017.10.11-17.14.26:975][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.11-17.14.26:992][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
-[2017.10.11-17.14.26:992][  0]LogD3D11RHI:       1989/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.10.11-17.14.26:994][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.11-17.14.26:994][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.11-17.14.26:995][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.11-17.14.27:001][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.11-17.14.27:001][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.11-17.14.27:001][  0]LogWindows: EnumDisplayDevices:
-[2017.10.11-17.14.27:001][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
-[2017.10.11-17.14.27:001][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
-[2017.10.11-17.14.27:001][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2017.10.11-17.14.27:001][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2017.10.11-17.14.27:002][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.10.11-17.14.27:002][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
-[2017.10.11-17.14.27:002][  0]LogD3D11RHI:   Driver Version: 358.91 (internal:10.18.13.5891, unified:358.91)
-[2017.10.11-17.14.27:002][  0]LogD3D11RHI:      Driver Date: 11-5-2015
-[2017.10.11-17.14.27:002][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.11-17.14.27:011][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
-[2017.10.11-17.14.27:011][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.11-17.14.27:028][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.10.11-17.14.27:031][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Workspace/fisherman/UE_fisherman/Intermediate/Shaders/WorkingDirectory/2114388/).
-[2017.10.11-17.14.27:031][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sebastian/AppData/Local/Temp/UnrealShaderWorkingDir/A30846C2499388F0A65C868CBACC27DA/'.
-[2017.10.11-17.14.27:031][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.10.11-17.14.28:061][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.11-17.14.28:102][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.10.11-17.14.28:143][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.11-17.14.28:185][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.10.11-17.14.28:230][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.10.11-17.14.28:271][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.11-17.14.28:313][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.11-17.14.28:361][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.11-17.14.28:397][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.10.11-17.14.28:459][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.10.11-17.14.28:501][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.11-17.14.28:543][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.11-17.14.28:588][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.11-17.14.28:630][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.11-17.14.28:673][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.11-17.14.28:760][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.11-17.14.28:760][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.11-17.14.28:793][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.10.11-17.14.28:886][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.10.11-17.14.28:914][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.10.11-17.14.28:958][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.11-17.14.29:005][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.11-17.14.29:049][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.11-17.14.29:093][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.10.11-17.14.29:093][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.10.11-17.14.29:560][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.10.11-17.14.29:668][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/sebastian/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.10.11-17.14.29:668][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sebastian/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.10.11-17.14.29:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Workspace/fisherman/UE_fisherman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.11-17.14.29:668][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.11-17.14.29:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Workspace/fisherman/UE_fisherman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.11-17.14.29:668][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.11-17.14.29:686][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.11-17.14.29:699][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.11-17.14.29:709][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.11-17.14.29:710][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.11-17.14.29:710][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.11-17.14.29:710][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.11-17.14.30:072][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.11-17.14.30:165][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.11-17.14.30:370][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.11-17.14.30:414][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.11-17.14.30:453][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.11-17.14.30:453][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.10.11-17.14.30:453][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.10.11-17.14.31:028][  0]LogNetVersion: UE_fisherman , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3140261250)
-[2017.10.11-17.14.31:093][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2017.10.11-17.14.31:155][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.028150 seconds
-[2017.10.11-17.14.31:160][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.10.11-17.14.31:160][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.10.11-17.14.31:160][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.11-17.14.31:240][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.11-17.14.33:646][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.11-17.14.33:687][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.11-17.14.34:186][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.11-17.14.34:569][  0]SourceControl: Info Source control is disabled
-[2017.10.11-17.14.35:256][  0]LogLinker:Warning: Can't find file '/Game/Levels/SideScrollerOverview'
-[2017.10.11-17.14.35:256][  0]LogLinker:Warning: Can't find file '/Game/Levels/SideScrollerOverview'
-[2017.10.11-17.14.35:256][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Levels/SideScrollerOverview.SideScrollerOverview_C'
-[2017.10.11-17.14.35:758][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.11-17.14.36:311][  0]LogEngine: Initializing Engine...
-[2017.10.11-17.14.36:312][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.11-17.14.36:547][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.11-17.14.36:547][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.11-17.14.36:684][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.11-17.14.36:690][  0]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.11-17.14.36:708][  0]LogInit: FAudioDevice initialized.
-[2017.10.11-17.14.36:745][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/sebastian/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.10.11-17.14.36:759][  0]LogInit: Texture streaming: Enabled
-[2017.10.11-17.14.36:851][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.11-17.14.37:031][  0]LogInit: Transaction tracking system initialized
-[2017.10.11-17.14.37:374][  0]BlueprintLog: New page: Editor Load
-[2017.10.11-17.14.38:226][  0]LocalizationService: Info Localization service is disabled
-[2017.10.11-17.14.38:811][  0]LogConsoleResponse:Display: 
-[2017.10.11-17.14.38:967][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.11-17.14.38:967][  0]LogCook:Display: Mobile HDR setting 1
-[2017.10.11-17.14.39:114][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/fisherman/UE_fisherman/Content/' took 0.01s
-[2017.10.11-17.14.40:051][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.11-17.14.40:051][  0]LightingResults: New page: Lighting Build
-[2017.10.11-17.14.40:087][  0]MapCheck: New page: Map Check
-[2017.10.11-17.14.40:087][  0]LightingResults: New page: Lighting Build
-[2017.10.11-17.14.40:288][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.10.11-17.14.40:289][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.10.11-17.14.40:299][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.11-17.14.40:327][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.11-17.14.40:364][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.616ms to complete.
-[2017.10.11-17.14.40:364][  0]LogFileHelpers: Loading map 'Template_Default' took 0.313
-[2017.10.11-17.14.40:542][  0]LogCollectionManager: Loaded 0 collections in 0.001295 seconds
-[2017.10.11-17.14.40:620][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/fisherman/UE_fisherman/Saved/Collections/' took 0.01s
-[2017.10.11-17.14.40:620][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/fisherman/UE_fisherman/Content/Developers/sebastian/Collections/' took 0.01s
-[2017.10.11-17.14.40:620][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/fisherman/UE_fisherman/Content/Collections/' took 0.01s
-[2017.10.11-17.14.40:620][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.10.11-17.14.40:629][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2329 classes and 491 folders.
-[2017.10.11-17.14.40:682][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.10.11-17.14.40:711][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.10.11-17.14.40:746][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.10.11-17.14.40:827][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.10.11-17.14.40:833][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.11-17.14.40:834][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.11-17.14.40:838][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.11-17.14.40:929][  0]LogRenderer: Reallocating scene render targets to support 1020x540 NumSamples 1 (Frame:1).
-[2017.10.11-17.14.41:040][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.10.11-17.14.41:137][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.10.11-17.14.41:137][  0]LogLoad: (Engine Initialization) Total time: 16.48 seconds
-[2017.10.11-17.14.41:137][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
-[2017.10.11-17.14.41:137][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.11-17.14.41:137][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.11-17.14.41:477][  0]LogOcInput: OculusInput pre-init called
-[2017.10.11-17.14.41:477][  0]LogHMD: Starting GearVRController plugin
-[2017.10.11-17.14.41:500][  0]SourceControl: Info On branch master
-[2017.10.11-17.14.41:500][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2017.10.11-17.14.41:500][  0]SourceControl: Info Changes to be committed:
-[2017.10.11-17.14.41:500][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	new file:   UE_fisherman/Content/bluePrint/bp_playerController.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	new file:   UE_fisherman/Content/bluePrint/bpc_fisherman.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Content/bluePrint/char/bpc_fisherman.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	new file:   UE_fisherman/Content/bluePrint/char/bs_fisherman.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	new file:   UE_fisherman/Content/bluePrint/char/bs_fishermanIDLE_RUN.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	new file:   UE_fisherman/Content/bluePrint/char/fisherman_Idle.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	new file:   UE_fisherman/Content/bluePrint/char/fisherman_walk.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	new file:   UE_fisherman/Content/bluePrint/gm_fisherman.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info Changes not staged for commit:
-[2017.10.11-17.14.41:500][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2017.10.11-17.14.41:500][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Content/bluePrint/bpc_fisherman.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	deleted:    UE_fisherman/Content/bluePrint/char/bs_fisherman.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	deleted:    UE_fisherman/Content/bluePrint/char/bs_fishermanIDLE_RUN.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Content/bluePrint/char/fisherman.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	deleted:    UE_fisherman/Content/bluePrint/char/fisherman_Idle.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Content/bluePrint/char/fisherman_PhysicsAsset.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Content/bluePrint/char/fisherman_Skeleton.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	deleted:    UE_fisherman/Content/bluePrint/char/fisherman_walk.uasset
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Content/level/testlevel.umap
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Intermediate/CachedAssetRegistry.bin
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/PackageRestoreData.json
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.10.11-17.14.41:500][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Config/Windows/Engine.ini
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Logs/UE_fisherman.log
-[2017.10.11-17.14.41:501][  0]SourceControl: Info Untracked files:
-[2017.10.11-17.14.41:501][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Intermediate/AssetRegistryCache/311563bb.bin
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Intermediate/AssetRegistryCache/c90e3f55.bin
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/AutoScreenshot.png
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/bpc_fisherman_Auto3.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/bpc_fisherman_Auto4.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_Idle_Anim_Auto3.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_Idle_Auto3.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_Idle_PhysicsAsset_Auto3.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_walk_Anim_Auto3.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_walk_Auto3.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_walk_PhysicsAsset_Auto3.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-13-37-08.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-13-45-13.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-13-57-04.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bs_fishermanIDLE_RUN_2017-10-11-13-50-07.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/fisherman_2017-10-11-13-38-43.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/fisherman_2017-10-11-13-50-07.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/fisherman_Idle_2017-10-11-13-50-07.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/fisherman_PhysicsAsset_2017-10-11-13-38-43.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/fisherman_PhysicsAsset_2017-10-11-13-50-07.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/fisherman_Skeleton_2017-10-11-13-38-43.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/fisherman_Skeleton_2017-10-11-13-50-07.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/fisherman_walk_2017-10-11-13-49-35.uasset
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/testlevel_2017-10-11-13-38-40.umap
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/testlevel_2017-10-11-13-45-04.umap
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/testlevel_2017-10-11-13-57-18.umap
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Config/CrashReportClient/UE4CC-Windows-EBF0F4764294706BDA2952B9B049590C/
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Config/CrashReportClient/UE4CC-Windows-EE39A51B465B93876C27E4BE9531A166/
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Logs/UE_fisherman-backup-2017.10.11-14.05.46.log
-[2017.10.11-17.14.41:501][  0]SourceControl: Info 	UE_fisherman/Saved/Logs/UE_fisherman-backup-2017.10.11-14.14.25.log
-[2017.10.11-17.14.41:501][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.11-17.14.42:148][  2]LogAssetRegistry: Asset discovery search completed in 11.0772 seconds
-[2017.10.11-17.14.42:151][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.11-17.14.42:151][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
-[2017.10.11-17.14.45:820][ 13]LogSlate: Took 0.000485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.11-17.16.04:855][826]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.11-17.16.04:916][826]LogAIModule: Creating AISystem for world testlevel
-[2017.10.11-17.16.04:940][826]Cmd: MAP LOAD FILE="../../../../../../Workspace/fisherman/UE_fisherman/Content/level/testlevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.11-17.16.04:940][826]LightingResults: New page: Lighting Build
-[2017.10.11-17.16.04:940][826]LoadErrors: New page: Loading map: testlevel.umap
-[2017.10.11-17.16.04:941][826]MapCheck: New page: Map Check
-[2017.10.11-17.16.04:941][826]LightingResults: New page: Lighting Build
-[2017.10.11-17.16.04:997][826]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.11-17.16.05:028][826]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.11-17.16.05:067][826]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.257ms to complete.
-[2017.10.11-17.16.05:067][826]LogFileHelpers: Loading map 'testlevel' took 0.129
-[2017.10.11-17.16.20:072][454]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.10.11-17.16.20:153][457]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UEfisherman
-[2017.10.11-17.16.20:153][457]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
-[2017.10.11-17.16.20:153][457]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
-[2017.10.11-17.16.20:153][457]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
-[2017.10.11-17.16.20:153][457]LogTemp: BranchPath = SEBANUEVA-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = SEBANUEVA-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
-[2017.10.11-17.16.20:171][459]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\sebastian\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.10.11-17.16.25:699][ 94]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.11-17.16.29:074][476]SourceControl:Error: Error fatal: Invalid path '/Script': No such file or directory
-[2017.10.11-17.16.53:032][286]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
-[2017.10.11-17.17.04:065][286]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.10.11-17.17.04:142][286]SourceControl: Info [master 29dd077] update
-[2017.10.11-17.17.04:142][286]SourceControl: Info  5 files changed, 49 insertions(+), 6 deletions(-)
-[2017.10.11-17.17.04:149][286]SourceControl: Info Commited [master 29dd077] update.
+[2017.10.11-20.49.36:559][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.11-20.49.36:559][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.11-20.49.36:580][  0]LogInit: Computer: SEBANUEVA-PC
+[2017.10.11-20.49.36:580][  0]LogInit: User: sebastian
+[2017.10.11-20.49.36:580][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.10.11-20.49.36:580][  0]LogInit: High frequency timer resolution =3.222655 MHz
+[2017.10.11-20.49.36:581][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.11-20.49.36:581][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-20.49.36:581][  0]LogMemory: Process Physical Memory: 272.90 MB used, 272.90 MB peak
+[2017.10.11-20.49.36:581][  0]LogMemory: Process Virtual Memory: 259.08 MB used, 259.08 MB peak
+[2017.10.11-20.49.36:581][  0]LogMemory: Physical Memory: 6085.41 MB used,  10194.03 MB free, 16279.43 MB total
+[2017.10.11-20.49.36:581][  0]LogMemory: Virtual Memory: 619.46 MB used,  10194.03 MB free, 134217728.00 MB total
+[2017.10.11-20.49.36:643][  0]LogInit: Overriding language with editor culture configuration option (en).
+[2017.10.11-20.49.36:643][  0]LogInit: Overriding locale with editor culture configuration option (en).
+[2017.10.11-20.49.37:582][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.11-20.49.37:606][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2017.10.11-20.49.37:606][  0]LogD3D11RHI:       1989/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.11-20.49.37:607][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.11-20.49.37:607][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.11-20.49.37:607][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.11-20.49.37:611][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.11-20.49.37:611][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.11-20.49.37:611][  0]LogWindows: EnumDisplayDevices:
+[2017.10.11-20.49.37:612][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2017.10.11-20.49.37:612][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2017.10.11-20.49.37:612][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.10.11-20.49.37:612][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.10.11-20.49.37:612][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.11-20.49.37:612][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2017.10.11-20.49.37:612][  0]LogD3D11RHI:   Driver Version: 358.91 (internal:10.18.13.5891, unified:358.91)
+[2017.10.11-20.49.37:612][  0]LogD3D11RHI:      Driver Date: 11-5-2015
+[2017.10.11-20.49.37:612][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.11-20.49.37:622][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.10.11-20.49.37:622][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.11-20.49.37:640][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.11-20.49.37:642][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Workspace/fisherman/UE_fisherman/Intermediate/Shaders/WorkingDirectory/1927852/).
+[2017.10.11-20.49.37:642][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sebastian/AppData/Local/Temp/UnrealShaderWorkingDir/9E67476244CFE20FB104628CF7ADE8BC/'.
+[2017.10.11-20.49.37:642][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.11-20.49.38:816][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.11-20.49.38:860][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.11-20.49.38:903][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.11-20.49.38:947][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.11-20.49.38:992][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.11-20.49.39:036][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.11-20.49.39:079][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.11-20.49.39:123][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.11-20.49.39:160][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.11-20.49.39:209][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.11-20.49.39:264][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.11-20.49.39:306][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.11-20.49.39:348][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.11-20.49.39:388][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.11-20.49.39:428][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.11-20.49.39:506][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.11-20.49.39:506][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.11-20.49.39:537][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.11-20.49.39:628][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.11-20.49.39:654][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.11-20.49.39:702][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.11-20.49.39:754][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.11-20.49.39:800][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.11-20.49.39:851][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.11-20.49.39:851][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.11-20.49.40:258][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.11-20.49.40:362][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/sebastian/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.11-20.49.40:362][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sebastian/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.11-20.49.40:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Workspace/fisherman/UE_fisherman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.11-20.49.40:362][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.11-20.49.40:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Workspace/fisherman/UE_fisherman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.11-20.49.40:362][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.11-20.49.40:388][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.11-20.49.40:401][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.11-20.49.40:427][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.11-20.49.40:427][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.11-20.49.40:428][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.11-20.49.40:428][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.11-20.49.40:875][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.11-20.49.40:961][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.11-20.49.41:107][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.11-20.49.41:142][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.11-20.49.41:188][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.11-20.49.41:188][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.11-20.49.41:188][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.11-20.49.41:763][  0]LogNetVersion: UE_fisherman , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3140261250)
+[2017.10.11-20.49.41:824][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.10.11-20.49.41:869][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.023448 seconds
+[2017.10.11-20.49.41:874][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.11-20.49.41:874][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.11-20.49.41:874][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.11-20.49.41:946][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.11-20.49.46:820][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.11-20.49.46:857][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.11-20.49.47:461][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.11-20.49.47:968][  0]SourceControl: Info Source control is disabled
+[2017.10.11-20.49.48:752][  0]LogLinker:Warning: Can't find file '/Game/Levels/SideScrollerOverview'
+[2017.10.11-20.49.48:752][  0]LogLinker:Warning: Can't find file '/Game/Levels/SideScrollerOverview'
+[2017.10.11-20.49.48:752][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Levels/SideScrollerOverview.SideScrollerOverview_C'
+[2017.10.11-20.49.49:148][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.11-20.49.49:651][  0]LogEngine: Initializing Engine...
+[2017.10.11-20.49.49:652][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.11-20.49.49:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.11-20.49.49:874][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.11-20.49.50:038][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.11-20.49.50:046][  0]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.11-20.49.50:056][  0]LogInit: FAudioDevice initialized.
+[2017.10.11-20.49.50:095][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/sebastian/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.11-20.49.50:105][  0]LogInit: Texture streaming: Enabled
+[2017.10.11-20.49.50:183][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.11-20.49.50:390][  0]LogInit: Transaction tracking system initialized
+[2017.10.11-20.49.50:701][  0]BlueprintLog: New page: Editor Load
+[2017.10.11-20.49.51:575][  0]LocalizationService: Info Localization service is disabled
+[2017.10.11-20.49.52:257][  0]LogConsoleResponse:Display: 
+[2017.10.11-20.49.52:407][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.11-20.49.52:407][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.11-20.49.52:946][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/fisherman/UE_fisherman/Content/' took 0.01s
+[2017.10.11-20.49.53:566][  0]Cmd: MAP LOAD FILE="../../../../../../Workspace/fisherman/UE_fisherman/Content/level/testlevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-20.49.53:567][  0]LightingResults: New page: Lighting Build
+[2017.10.11-20.49.53:609][  0]MapCheck: New page: Map Check
+[2017.10.11-20.49.53:609][  0]LightingResults: New page: Lighting Build
+[2017.10.11-20.49.53:685][  0]LogAIModule: Creating AISystem for world testlevel
+[2017.10.11-20.49.53:695][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-20.49.53:715][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-20.49.53:768][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.331ms to complete.
+[2017.10.11-20.49.53:768][  0]LogFileHelpers: Loading map 'testlevel' took 0.202
+[2017.10.11-20.49.53:857][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.11-20.49.53:857][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.11-20.49.53:960][  0]LogCollectionManager: Loaded 0 collections in 0.001373 seconds
+[2017.10.11-20.49.54:043][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/fisherman/UE_fisherman/Saved/Collections/' took 0.01s
+[2017.10.11-20.49.54:043][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/fisherman/UE_fisherman/Content/Developers/sebastian/Collections/' took 0.01s
+[2017.10.11-20.49.54:043][  0]LogFileCache: Scanning file cache for directory 'C:/Workspace/fisherman/UE_fisherman/Content/Collections/' took 0.01s
+[2017.10.11-20.49.54:043][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.11-20.49.54:052][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2329 classes and 491 folders.
+[2017.10.11-20.49.54:118][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.11-20.49.54:214][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.11-20.49.54:253][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.11-20.49.54:337][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.11-20.49.54:346][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.11-20.49.54:350][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.11-20.49.54:359][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.11-20.49.54:458][  0]LogRenderer: Reallocating scene render targets to support 1020x540 NumSamples 1 (Frame:1).
+[2017.10.11-20.49.54:599][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.11-20.49.54:674][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.11-20.49.54:675][  0]LogLoad: (Engine Initialization) Total time: 19.59 seconds
+[2017.10.11-20.49.54:675][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2017.10.11-20.49.54:675][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.11-20.49.54:675][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.11-20.49.54:684][  0]LogOcInput: OculusInput pre-init called
+[2017.10.11-20.49.54:684][  0]LogHMD: Starting GearVRController plugin
+[2017.10.11-20.49.54:708][  0]SourceControl: Info On branch master
+[2017.10.11-20.49.54:708][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.10.11-20.49.54:708][  0]SourceControl: Info Changes to be committed:
+[2017.10.11-20.49.54:708][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/LibraryProps.png
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/ParedInteriorDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/PeredPiedraDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/banquitoDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/barrilDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/calderonDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/estanteADiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/estanteBDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/estanteCDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/fisherman.png
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/fisherman_bodyDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/housePropsA.png
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/icons/icon_candelabro.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/icons/libro.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/icons/papel.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/icons/pergaminos.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/icons/tintero.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/icons/vela.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/magicGirlAnim_IDLE.fbm/MagicForestGirl_DiffuseMap.png
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/magicGirlAnim_run.fbm/MagicForestGirl_DiffuseMap.png
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/magicGirlAnim_run02.fbm/MagicForestGirl_DiffuseMap.png
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/mesaRectangularDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/mesaRedondaDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/sillaADiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/sillaBDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/sueloMaderaDiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/sueloPiedra001DiffuseMap.jpg
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   Export/walls01.png
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   UE_fisherman/Content/bluePrint/bp_playerController.uasset
+[2017.10.11-20.49.54:708][  0]SourceControl: Info 	modified:   UE_fisherman/Content/bluePrint/char/fisherman_PhysicsAsset.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/bluePrint/char/fisherman_Skeleton.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/bluePrint/gm_fisherman.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	deleted:    UE_fisherman/Content/bluePrint/interface/NewInterface.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/material/m_fisherman.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/ParedInteriorDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/PeredPiedraDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/banquitoDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/barrilDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/calderonDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/estanteADiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/estanteBDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/estanteCDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/fisherman_bodyDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/mesaRectangularDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/mesaRedondaDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/sillaADiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/sillaBDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/sueloMaderaDiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Content/textura/sueloPiedra001DiffuseMap.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/AutoScreenshot.png
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/bpc_fisherman_Auto3.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/bpc_fisherman_Auto4.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_Auto2.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_Idle_Anim_Auto3.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_Idle_Auto3.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_Idle_PhysicsAsset_Auto3.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_walk_Anim_Auto3.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_walk_Auto3.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_walk_PhysicsAsset_Auto3.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/LibraryProps_Auto1.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/ParedInteriorDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/PeredPiedraDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/banquitoDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/barrilDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/calderonDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:709][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/estanteADiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/estanteBDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/estanteCDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/fisherman_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/fisherman_bodyDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/housePropsA_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/mesaRectangularDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/mesaRedondaDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/sillaADiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/sillaBDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/sueloMaderaDiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/sueloPiedra001DiffuseMap_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/textura/walls01_Auto1.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-13-37-08.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-13-45-13.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-13-57-04.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/bs_fishermanIDLE_RUN_2017-10-11-13-50-07.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/fisherman_2017-10-11-11-37-51.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/fisherman_2017-10-11-13-38-43.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/fisherman_2017-10-11-13-50-07.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/fisherman_Idle_2017-10-11-13-50-07.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/fisherman_PhysicsAsset_2017-10-11-13-38-43.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/fisherman_PhysicsAsset_2017-10-11-13-50-07.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/fisherman_Skeleton_2017-10-11-13-38-43.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/fisherman_Skeleton_2017-10-11-13-50-07.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/fisherman_walk_2017-10-11-13-49-35.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/m_fisherman_2017-10-11-11-24-59.uasset
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/testlevel_2017-10-11-13-38-40.umap
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/testlevel_2017-10-11-13-45-04.umap
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Backup/testlevel_2017-10-11-13-57-18.umap
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   UE_fisherman/UE_fisherman.uproject
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   max/MagicForestGirl_DiffuseMap.png
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   max/MagicGirl_Base.max
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   max/MagicGirl_IDLE.max
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   max/MagicGirl_animRun.max
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   max/PropsLibrary.max
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   max/fisherman.max
+[2017.10.11-20.49.54:710][  0]SourceControl: Info 	modified:   max/houseInteriorA.max
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   max/houseInteriorAexported.max
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   max/wallls.max
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/Dormitorio.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/FarmProps.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/Flora1.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/FornitureRed.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/LibraryProps.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/MagicForestGirl.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/armas01.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/fisherman.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/housePropsA.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/rocksA.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/vajillaA.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   vox/walls01.vox
+[2017.10.11-20.49.54:711][  0]SourceControl: Info Changes not staged for commit:
+[2017.10.11-20.49.54:711][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.10.11-20.49.54:711][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Config/DefaultEngine.ini
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	deleted:    UE_fisherman/Content/bluePrint/interface/NewBlueprint.uasset
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	deleted:    UE_fisherman/Content/bluePrint/interface/oksda.uasset
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Intermediate/CachedAssetRegistry.bin
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/AutoScreenshot.png
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/bpc_fisherman_Auto3.uasset
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Autosaves/Game/bluePrint/bpc_fisherman_Auto4.uasset
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Config/Windows/Editor.ini
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   UE_fisherman/Saved/Logs/UE_fisherman.log
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   max/PropsLibrary.max
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   max/fisherman.max
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	modified:   max/wallls.max
+[2017.10.11-20.49.54:711][  0]SourceControl: Info Untracked files:
+[2017.10.11-20.49.54:711][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	UE_fisherman/Intermediate/AssetRegistryCache/d928ae41.bin
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/bpc_fisherman_Auto2.uasset
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/bpc_fisherman_Auto5.uasset
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/bpc_fisherman_Auto6.uasset
+[2017.10.11-20.49.54:711][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/bpa_fisherman_Auto2.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/bpa_fisherman_Auto3.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/bpa_fisherman_Auto4.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/bpa_fisherman_Auto5.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/bpa_fisherman_Auto6.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_Idle_Auto1.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/bluePrint/char/fisherman_walk_Auto1.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Autosaves/Game/material/
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/asascaca_2017-10-11-17-46-27.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/asdalsdka_2017-10-11-17-47-21.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpa_fisherman_2017-10-11-14-48-03.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpa_fisherman_2017-10-11-14-58-06.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpa_fisherman_2017-10-11-15-13-06.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpa_fisherman_2017-10-11-15-24-26.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpa_fisherman_2017-10-11-15-49-48.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpa_fisherman_2017-10-11-16-11-57.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-14-44-37.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-14-58-06.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-15-13-06.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-15-24-26.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-15-49-48.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-16-11-54.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bpc_fisherman_2017-10-11-16-17-51.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bs_fisherman_2017-10-11-14-42-47.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bs_fisherman_2017-10-11-15-06-09.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/bs_fisherman_2017-10-11-16-12-40.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/fisherman_2017-10-11-14-43-21.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/interact_2017-10-11-17-25-26.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/sadfafga_2017-10-11-17-46-43.uasset
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Backup/testlevel_2017-10-11-16-17-51.umap
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Config/CrashReportClient/UE4CC-Windows-276940DE46179EF20616358EFAE420F1/
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Config/CrashReportClient/UE4CC-Windows-336B3A22409F3E7C82D995B122BB72D0/
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Config/CrashReportClient/UE4CC-Windows-3673FB1A444CDA9DD6A7948C5380097B/
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Config/CrashReportClient/UE4CC-Windows-3808F0084E3858928D1D7E99AD22E24B/
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Config/CrashReportClient/UE4CC-Windows-DF1D44C740171F0B1F7E68A642E1BEBF/
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Crashes/UE4CC-Windows-276940DE46179EF20616358EFAE420F1_0000/
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Crashes/UE4CC-Windows-3673FB1A444CDA9DD6A7948C5380097B_0000/
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Crashes/UE4CC-Windows-3808F0084E3858928D1D7E99AD22E24B_0000/
+[2017.10.11-20.49.54:712][  0]SourceControl: Info 	UE_fisherman/Saved/Crashes/UE4CC-Windows-DF1D44C740171F0B1F7E68A642E1BEBF_0000/
+[2017.10.11-20.49.54:713][  0]SourceControl: Info 	UE_fisherman/Saved/Diff/
+[2017.10.11-20.49.54:713][  0]SourceControl: Info 	UE_fisherman/Saved/Logs/UE_fisherman-backup-2017.10.11-14.27.20.log
+[2017.10.11-20.49.54:713][  0]SourceControl: Info 	UE_fisherman/Saved/Logs/UE_fisherman-backup-2017.10.11-17.30.01.log
+[2017.10.11-20.49.54:713][  0]SourceControl: Info 	UE_fisherman/Saved/Logs/UE_fisherman-backup-2017.10.11-17.37.38.log
+[2017.10.11-20.49.54:713][  0]SourceControl: Info 	UE_fisherman/Saved/Logs/UE_fisherman-backup-2017.10.11-17.42.40.log
+[2017.10.11-20.49.54:713][  0]SourceControl: Info 	UE_fisherman/Saved/Logs/UE_fisherman-backup-2017.10.11-17.49.36.log
+[2017.10.11-20.49.54:713][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.11-20.49.54:803][  2]LogAssetRegistry: Asset discovery search completed in 13.0022 seconds
+[2017.10.11-20.49.54:806][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.11-20.49.54:806][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2017.10.11-20.49.59:042][192]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.11-20.51.27:650][116]SourceControl:Error: Error error: cannot pull with rebase: You have unstaged changes.
+[2017.10.11-20.51.27:650][116]SourceControl:Error: Error error: additionally, your index contains uncommitted changes.
+[2017.10.11-20.51.27:650][116]SourceControl:Error: Error error: please commit or stash them.
